@@ -21,8 +21,6 @@ class DateConverter:
 register_converter(DateConverter, 'date')
 
 
-def articles_2003(request):
-    return HttpResponse("2003-yilda ciqarilgan maqolalar (xususiy hol)")
 
 
 def articles_by_year(request, year):
